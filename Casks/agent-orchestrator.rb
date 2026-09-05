@@ -1,9 +1,9 @@
 cask "agent-orchestrator" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.12.10"
-  sha256 arm:   "6dd9388d6419fde3294bc0a09d9afe440c96967d32749641882e3b41e197a8ce",
-         intel: "ce8cd02473d869d2ed5a433f726c6108f00916e8fc40e909a7becdae8fbbd0c8"
+  version "0.12.11"
+  sha256 arm:   "146557f3fb96b9458437690ecdfb916ec85e123e84818d938b01f99f7a5245ee",
+         intel: "3374c16aacaff81fa09b62b34daa1dc3016375243f0f6a4307a259cc8b478a7a"
 
   url "https://github.com/AgentWrapper/agent-orchestrator/releases/download/v#{version}/agent-orchestrator-darwin-#{arch}.zip",
       verified: "github.com/AgentWrapper/agent-orchestrator/"
